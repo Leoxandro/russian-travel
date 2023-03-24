@@ -1,9 +1,9 @@
-.website__link{
+.place__website_link{
     margin: 0;
     color: #FFFFFF;
     text-decoration: underline;
     opacity: 1;
 }
-.website__link:hover {
+.place__website_link:hover {
     opacity: 0.8;
 }
