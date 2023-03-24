@@ -1,0 +1,9 @@
+.place__website_link{
+    margin: 0;
+    color: #FFFFFF;
+    text-decoration: underline;
+    opacity: 1;
+}
+.place__website_link:hover {
+    opacity: 0.8;
+}

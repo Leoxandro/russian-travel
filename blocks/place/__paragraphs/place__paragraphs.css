@@ -1,0 +1,28 @@
+.place__parahraphs {
+    height: inherit;
+    width: inherit;
+    display: grid;
+    grid-template-columns: 484px;
+    grid-template-rows: 1fr 1fr;
+}
+
+@media screen and (max-width: 1279px) {
+    .place__parahraphs {
+        grid-template-columns: 456px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__parahraphs {
+        grid-template-columns: 352px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__parahraphs {
+        grid-template-columns: 288px;
+        height: auto;
+    }
+}
