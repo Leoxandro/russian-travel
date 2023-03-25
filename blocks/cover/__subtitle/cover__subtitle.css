@@ -9,6 +9,7 @@
     width: 360px;
     text-align: center;
     z-index: 5;
+    pointer-events: none;
 }
 
 @media screen and (max-width: 1279px) {
@@ -33,4 +34,8 @@
         line-height: 16px;
         width: 288px;
     }
+}
+
+.cover__subtitle:hover ~ .cover__overlay {
+    opacity: 0.8;
 }

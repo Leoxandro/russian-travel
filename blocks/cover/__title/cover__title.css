@@ -7,7 +7,7 @@
     width: 560px;
     text-align: center;
     z-index: 5;
-
+    pointer-events: none;
 }
 
 @media screen and (max-width: 1279px) {
@@ -30,4 +30,7 @@
         font-weight: 900;
         line-height: 35px;
     }
+}
+.cover__title:hover ~ .cover__overlay {
+    opacity: 0.8;
 }
