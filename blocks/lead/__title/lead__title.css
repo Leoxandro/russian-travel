@@ -4,7 +4,6 @@
     line-height: 100px;
     margin: 0 132px;
     width: 720px;
-    height: 200px;
     text-align: center;
 }
 
@@ -24,9 +23,7 @@
     .lead__title {
         margin: 0 16px;
         width: 288px;
-        height: 88px;
         font-size: 40px;
-        font-weight: 900;
         line-height: 44px;
     }
 }

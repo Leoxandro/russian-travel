@@ -1,4 +1,4 @@
-.place__parahraphs {
+.place__paragraphs {
     height: inherit;
     width: inherit;
     display: grid;
@@ -16,13 +16,11 @@
 @media screen and (max-width: 1023px) {
     .place__parahraphs {
         grid-template-columns: 352px;
-        height: auto;
     }
 }
 
 @media screen and (max-width: 767px) {
     .place__parahraphs {
         grid-template-columns: 288px;
-        height: auto;
     }
 }

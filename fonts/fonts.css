@@ -4,12 +4,12 @@
      src: url(./Web/Inter-Regular.woff2) format("woff2");
 }
 @font-face {
-     font-family: "Inter";
+     font-family: "Inter-Bold";
      font-weight: 700;
      src: url(./Web/Inter-Black.woff2) format("woff2");
 }
 @font-face {
-     font-family: "Inter";
+     font-family: "Inter-Black";
      font-weight: 900;
      src: url(./Web/Inter-Bold.woff2) format("woff2");
 }

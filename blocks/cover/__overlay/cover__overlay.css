@@ -1,7 +1,10 @@
 .cover__overlay {
     position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
     width: 1184px;
-    height: 740px;
+    min-height: 740px;
     z-index: 2;
     background-color: #2A2C2F;
     opacity: 0.3;
