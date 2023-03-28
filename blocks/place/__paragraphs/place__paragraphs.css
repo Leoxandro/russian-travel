@@ -1,26 +1,27 @@
 .place__paragraphs {
-    height: inherit;
+    height: fit-content;
     width: inherit;
     display: grid;
     grid-template-columns: 484px;
-    grid-template-rows: 1fr 1fr;
 }
 
 @media screen and (max-width: 1279px) {
-    .place__parahraphs {
+    .place__paragraphs {
         grid-template-columns: 456px;
-        height: auto;
+        height: fit-content;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    .place__parahraphs {
+    .place__paragraphs {
         grid-template-columns: 352px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .place__parahraphs {
+    .place__paragraphs {
         grid-template-columns: 288px;
+        height: 468px;
+        margin-bottom: 50px;
     }
 }

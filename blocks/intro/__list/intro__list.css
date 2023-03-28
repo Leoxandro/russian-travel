@@ -1,11 +1,17 @@
 .intro__list {
     margin-top: 0;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 18px;
     letter-spacing: 0em;
     text-align: left;
     list-style-type: none;
     text-decoration: none;
     padding-left: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .intro__list {
+        margin-top: 2px;
+    }
 }

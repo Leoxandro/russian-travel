@@ -6,7 +6,11 @@
     margin-right: 0;
     margin-left: auto;
 }
-
+@media screen and (max-width: 1279px) {
+    .footer__copyright {
+        margin-top: 14px;
+    }
+}
 @media screen and (max-width: 767px) {
     .footer__copyright {
         margin-left: 0;

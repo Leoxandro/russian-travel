@@ -46,7 +46,7 @@
 
 ### Ссылки
 
-[Репозиторий проекта на GitHub](https://github.com/Leoxandro/russian-travel)
+[Репозиторий проекта на GitHub](https://leoxandro.github.io/russian-travel/index.html)
 
 ### Авторы
 Алексей Карпов

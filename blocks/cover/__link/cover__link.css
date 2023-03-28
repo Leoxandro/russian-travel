@@ -1,5 +1,7 @@
 .cover__link {
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
     z-index: 1;
+    width: inherit;
+    height: inherit;
 }

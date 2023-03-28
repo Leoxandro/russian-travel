@@ -7,8 +7,9 @@
     top: 50%;
     background-image: url(../../../images/cover-trains.jpg);
     background-size:cover;
+    background-repeat:no-repeat;
     width: 1184px;
-    min-height: 740px;
+    height: 100%;
     z-index: 1;
 }
 
@@ -29,6 +30,7 @@
 
 @media screen and (max-width: 767px) {
     .cover__background::before {
+        background-size: contain;
         width: 320px;
         min-height: 200px;
     }
