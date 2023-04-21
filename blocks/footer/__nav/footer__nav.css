@@ -1,10 +1,14 @@
 .footer__nav {
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
+    margin-left: 0;
 }
+
 
 @media screen and (max-width: 767px) {
     .footer__nav {
-        margin-bottom: 48px;
+        margin-bottom: 0;
+        margin-left: 0;
     }
 }

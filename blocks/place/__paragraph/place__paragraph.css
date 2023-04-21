@@ -22,4 +22,7 @@
         grid-column: 1;
         width: 288px;
     }
+    .place__paragraph:nth-child(2) {
+        margin-bottom: -27px;
+    }
 }

@@ -10,6 +10,7 @@
     padding-left: 0;
 }
 
+
 @media screen and (max-width: 767px) {
     .intro__list {
         margin-top: 2px;

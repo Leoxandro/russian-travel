@@ -2,14 +2,13 @@
     display: flex;
     align-items: flex-end;
     gap: 18px;
-    margin-right: 48px;
-    margin-top: 28px;
+    padding-bottom: 5px;
 }
 
 @media screen and (max-width: 1023px) {
     .header__link {
         margin-top: 18px;
-        margin-right: 16px;
+        margin-right: 0;
         margin-bottom: 6px;
     }
 }
@@ -17,9 +16,9 @@
 
 @media screen and (max-width: 767px) {
     .header__link {
-        margin-top: 14px;
-        margin-bottom: 8px;
-        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 3px;
+        margin-right: 1px;
     }
 }
 

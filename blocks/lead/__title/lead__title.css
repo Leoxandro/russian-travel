@@ -2,7 +2,7 @@
     font-size: 96px;
     font-weight: 900;
     line-height: 100px;
-    letter-spacing: 1px;
+    letter-spacing: 0.009em;
     margin: 0 132px;
     width: 720px;
     text-align: center;
@@ -16,7 +16,8 @@
 
 @media screen and (max-width: 1023px) {
     .lead__title {
-        margin: 0 24px;
+        letter-spacing: 0.02em;
+        margin: -4px 24px;
     }
 }
 
