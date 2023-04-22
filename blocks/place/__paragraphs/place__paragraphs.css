@@ -1,28 +1,11 @@
 .place__paragraphs {
     display: grid;
-    grid-template-columns: 484px;
-    grid-row-gap: 26px;
-    height: fit-content;
-}
-
-@media screen and (max-width: 1279px) {
-    .place__paragraphs {
-        grid-template-columns: 456px;
-    }
+    grid-template-columns: minmax(min-content, max-content);
+    row-gap: 26px;
 }
 
 @media screen and (max-width: 1023px) {
     .place__paragraphs {
-        grid-template-columns: 352px;
-        grid-row-gap: 25px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .place__paragraphs {
-        grid-template-columns: 288px;
-        height: fit-content;
-        margin-bottom: 50px;
-        margin-top: -14px;
+        row-gap: 25px;
     }
 }
