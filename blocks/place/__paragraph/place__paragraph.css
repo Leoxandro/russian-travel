@@ -3,9 +3,9 @@
     font-weight: 400;
     line-height: 29px;
     text-align: left;
-    margin-bottom: 26px;
     margin-top: 0;
     height:fit-content;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 1023px) {
@@ -21,8 +21,5 @@
         margin-right: 5%;
         grid-column: 1;
         width: 288px;
-    }
-    .place__paragraph:nth-child(2) {
-        margin-bottom: -27px;
     }
 }

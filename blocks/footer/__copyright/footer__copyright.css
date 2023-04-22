@@ -8,12 +8,12 @@
 
 @media screen and (max-width: 1279px) {
     .footer__copyright {
-        margin-top: 0px;
+        margin-top: 2px;
     }
 }
 @media screen and (max-width: 767px) {
     .footer__copyright {
         margin-left: 0;
-        margin-top: -3px;
+        margin-top: 15px;
     }
 }

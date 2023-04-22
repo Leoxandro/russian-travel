@@ -1,8 +1,6 @@
 .footer__nav {
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
-    margin-left: 0;
 }
 
 

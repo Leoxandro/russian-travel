@@ -1,8 +1,8 @@
 .place__paragraphs {
-    height: fit-content;
-    width: inherit;
     display: grid;
     grid-template-columns: 484px;
+    grid-row-gap: 26px;
+    height: fit-content;
 }
 
 @media screen and (max-width: 1279px) {
@@ -14,6 +14,7 @@
 @media screen and (max-width: 1023px) {
     .place__paragraphs {
         grid-template-columns: 352px;
+        grid-row-gap: 25px;
     }
 }
 

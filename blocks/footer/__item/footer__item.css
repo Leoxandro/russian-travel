@@ -1,0 +1,31 @@
+.footer__item {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    margin-right: 18px;
+    list-style-type: none;
+    margin-bottom: 24px;
+    margin-right: 23px;
+}
+
+@media screen and (max-width: 1279px) {
+    .footer__item {
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .footer__item {
+        margin-right: 24px;
+        margin-top: 2px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__item {
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+}

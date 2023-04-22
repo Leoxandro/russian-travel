@@ -13,6 +13,7 @@
         grid-template-rows: minmax(min-content, max-content) 440px;
         column-gap: 32px;
         margin-bottom: 80px;
+        margin-left: 6px;
     }
 }
 
@@ -22,6 +23,7 @@
         grid-template-rows: minmax(min-content, max-content) 340px;
         column-gap: 26px;
         margin-bottom: 174px;
+        margin-left: 0;
     }
     .place:nth-child(3) {
         margin-bottom: 122px;
@@ -45,17 +47,22 @@
         grid-template-columns: 320px;
         grid-template-rows: 35px 12px 320px;
         column-gap: 40px;
-        margin-bottom: 50px;
+        margin-bottom: 27px;
+    }
+    .place:nth-child(2) {
+        margin-bottom: 0;
     }
     .place:nth-child(3) {
-        margin-top: -23px;
+        margin-bottom: auto;
     }
     .place:nth-child(4) {
         grid-template-columns: 320px;
-        margin-top: -96px;
+        margin-bottom: 25px;
+    }
+    .place:nth-child(4) > .place__title {
+        letter-spacing: 0;
     }
     .place:nth-child(5) {
-        margin-top: -20px;
-        margin-bottom: 100px;
+        margin-bottom: 0;
     }
 }
