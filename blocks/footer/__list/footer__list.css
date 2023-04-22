@@ -1,6 +1,7 @@
 .footer__list {
     display: flex;
     flex-direction: row;
+    margin: 0;
     padding: 0;
 }
 @media screen and (max-width: 1279px) {

@@ -6,6 +6,7 @@
     color: #aaa;
     margin: 0 0 6px;
     text-transform: uppercase;
+    padding: 0;
 }
 
 @media screen and (max-width: 1023px) {
