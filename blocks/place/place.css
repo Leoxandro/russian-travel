@@ -22,10 +22,6 @@
         margin-bottom: 73px;
         margin-left: 0;
     }
-    .place:nth-child(4) > .place__title {
-        white-space: nowrap;
-        letter-spacing: .1px;
-    }
 }
 
 @media screen and (max-width: 767px) {
@@ -35,8 +31,5 @@
         row-gap: 32px;
         column-gap: 0;
         margin-bottom: 50px;
-    }
-    .place:nth-child(4) > .place__title {
-        letter-spacing: 0;
     }
 }

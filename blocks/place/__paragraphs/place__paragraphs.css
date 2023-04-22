@@ -1,11 +1,18 @@
 .place__paragraphs {
     display: grid;
-    grid-template-columns: minmax(min-content, max-content);
-    row-gap: 26px;
+    grid-template-columns: 484px;
+    grid-template-rows: minmax(min-content,max-content);
+    row-gap: 27px;
 }
 
 @media screen and (max-width: 1023px) {
     .place__paragraphs {
         row-gap: 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__paragraphs {
+        margin: 0 16px;
     }
 }
